@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import headertimeicon from "@/public/icons/headertimeicon.svg";
 import clinic from "@/public/icons/clilicicon.svg";
-import RightIcon from "@/public/icons/RightIcon.svg";
+import right from "@/public/icons/righticon.svg";
 import lefticon from "@/public/icons/lefticon.svg";
 import { initialItemList } from "./Headerherolest";
 
@@ -82,8 +82,8 @@ function HeaderHero() {
             />
           ) : (
             <Image
-              src={RightIcon}
-              alt="RightIcon"
+              src={right}
+              alt="right"
               width={10}
               height={10}
               onClick={handleRightClick} // Add new item on right click
