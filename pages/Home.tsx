@@ -4,6 +4,7 @@ import Header from "@/components/Home/Header";
 import HeaderHero from "@/components/Home/HeaderHero";
 import HeaderLogo from "@/components/Home/HeaderLogo";
 import Hero from "@/components/Home/Hero";
+import LestDocter from "@/components/Home/LestDocter";
 import React from "react";
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
       <Hero />
       <Clinic />
       <Explore />
+      <LestDocter />
     </>
   );
 }
